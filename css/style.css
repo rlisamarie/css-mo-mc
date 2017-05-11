@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'abril_fatfaceregular';
+  src: url('../fonts/abrilfatface-regular1-webfont.woff2') format('woff2'), url('../fonts/abrilfatface-regular1-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Abril Fatface', cursive;
+  width:1280px;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.top {
+  background-color:#ffffff;
+  height:340px;
+  color:#222222;
+  padding:70px 0 0 70px;
+}
+
+#try {
+  text-transform:uppercase;
+  font-size:30px;
+}
+
+#mind {
+  text-transform:capitalize;
+  font-size:120px;
+  line-height: 100px;
+}
+
+#to {
+  text-transform:uppercase;
+  font-size:30px;
+  line-height: 40px;
+  margin-left: 120px;
+}
+
+div {
+font-size: 130px;
+color:#ffffff;
+line-height: 310px;
+position: relative;
+}
+
+span {
+height: 52%;
+position:absolute;
+color:#222222;
+overflow:hidden;
+}
+
+.bottom {
+background-color:#222222;
+height:360px;
+color:#ffffff;
+padding:70px 0 0px 70px;
+}
+
+#your {
+  text-transform:uppercase;
+  font-size:30px;
+  line-height: 160px;
+}
+
+#mouth {
+  text-transform:capitalize;
+  font-size:120px;
+  float:left;
+  line-height: 0px;
+}
+
+.container {
+  text-transform:lowercase;
+  margin: -55px 0px 0px 780px;
+  width: 400px;
+  font-size:34px;
+  float:left;
+  line-height:36px;
+}
